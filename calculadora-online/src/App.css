@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: Lato, sans-serif;
+}
+
+.logo-contenedor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-calculadora {
+  width: 420px;
+  height: 600px;
+  padding: 14px;
+  background-color: lightblue;
+  border: 2px solid white;
+  border-radius: 14px;
+}
+
+.fila {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
