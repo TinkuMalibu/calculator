@@ -1,6 +1,7 @@
 import './App.css';
 import Pascal from './images/Pascal.png';
 import Boton from './components/Boton';
+import Pantalla from './components/Pantalla';
 
   function App() {
     return (
@@ -11,6 +12,7 @@ import Boton from './components/Boton';
           alt= 'Pascal Portrait' />
         </div>
         <div className="contenedor-calculadora">
+            <Pantalla />
           <div className="fila">
             <Boton>1</Boton>
             <Boton>2</Boton>

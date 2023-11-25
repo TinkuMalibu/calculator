@@ -16,6 +16,14 @@
 
   }
 
+  .boton-contenedor:hover {
+    background-color: lightsalmon;
+  }
+
   .operador {
-    background-color: green;
+    background-color: rgb(18, 77, 18);
+  }
+
+  .operador:hover {
+    background-color: rgb(62, 81, 32);
   }
