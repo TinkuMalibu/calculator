@@ -2,6 +2,7 @@ import './App.css';
 import Pascal from './images/Pascal.png';
 import Boton from './components/Boton';
 import Pantalla from './components/Pantalla';
+import BotonClear from './components/BotonClear';
 
   function App() {
     return (
@@ -38,6 +39,7 @@ import Pantalla from './components/Pantalla';
             <Boton>/</Boton>
             </div>
           <div className="fila">
+            <BotonClear>Clear</BotonClear>
 
           </div>
         </div>

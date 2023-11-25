@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  
+
 }
 
 .App {
@@ -20,9 +20,13 @@
   justify-content: center;
 }
 
+.logo-pascal {
+  height: 200px;
+}
+
 .contenedor-calculadora {
   width: 420px;
-  height: 600px;
+  height: auto;
   padding: 14px;
   background-color: lightblue;
   border: 2px solid white;
