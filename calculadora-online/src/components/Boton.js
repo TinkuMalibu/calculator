@@ -7,7 +7,9 @@ import Botones from '../stylesheets/Botones.css';
     };
     return (
       <div
-        className={`boton-contenedor ${esOperador(props.children) ? "operador" : ''}`.trimEnd()} >
+        className={`boton-contenedor ${esOperador(props.children) ? "operador" : ''}`.trimEnd()}
+        onClick= {() => props.clickManagement(props.children)}>
+
         {props.children}
       </div>
     );

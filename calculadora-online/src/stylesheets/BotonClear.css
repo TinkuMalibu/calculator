@@ -9,8 +9,9 @@
     justify-content: center;
     font-weight: bold;
     color: white;
-    cursor: ponint;
+    cursor: pointer;
     border: 2px solid white;
+    border-radius: 45px;
   }
 
     .boton-clear:hover {
